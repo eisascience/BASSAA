@@ -1,0 +1,43 @@
+Package: BASSAA
+Title: The HLA-B27 Ankylosing Spondylitis and Acute Anterior Uveitis Atlas Shiny App.
+Version: 0.4.0
+Author: Eisa Mahyari
+Maintainer: The package maintainer <mahyarie@ohsu.edu>
+Description: The goal of this app is to enable the exploration of the Human AS and AAU pathologies in the context of HLA-B27.
+License: `use_gpl3_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.2.0)
+biocViews:
+Imports:
+    data.table,
+    dplyr,
+    ggplot2,
+    ggforce,
+    ggthemes,
+    ggrepel,
+    ggrastr,
+    ggnewscale,
+    ggpubr,
+    grid,
+    gridExtra,
+    AnnotationHub,
+    RColorBrewer,
+    rclipboard,
+    shiny,
+    shinydashboard,
+    shinyWidgets,
+    shinyFiles,
+    stringr,
+    SDAtools,
+    viridis
+Suggests:
+    ggvis,
+    devtools
+Remotes:
+    BiocManager::Bioconductor
+    eisascience/BASSAA,
+    marchinilab/SDAtools
